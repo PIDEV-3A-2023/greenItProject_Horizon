@@ -37,7 +37,7 @@ security:
          - { path: ^/admin, roles: ROLE_ADMIN }
          - { path: ^/user, roles: ROLE_ADMIN }
         #  - { path: ^/profile, roles: ROLE_ADMIN }
-         - { path: ^/produit, roles: ROLE_ADMIN }
+         - { path: ^/produit/new, roles: ROLE_ADMIN }
          - { path: ^/commandes, roles: ROLE_ADMIN }
          - { path: ^/factures, roles: ROLE_ADMIN }
          - { path: ^/recyclage, roles: ROLE_ADMIN }

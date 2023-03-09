@@ -36,7 +36,7 @@ class ProfileController extends AbstractController
             $entityManager->flush();
             // $this->getDoctrine()->getManager()->flush();
 
-            return $this->redirectToRoute('profile');
+            return $this->redirectToRoute('app_profile');
         }
 
         return $this->render('profile/index.html.twig', [
